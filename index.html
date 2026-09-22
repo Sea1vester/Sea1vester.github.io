@@ -5,309 +5,240 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sylvester Lim</title>
     <meta name="description" content="A log of things Sylvester has done." />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e3a4a'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='26' font-family='ui-sans-serif,system-ui,sans-serif' font-weight='700' fill='%23e8f4f6'%3ESL%3C/text%3E%3C/svg%3E" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231d1d1f'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='26' font-family='ui-sans-serif,system-ui,sans-serif' font-weight='700' fill='%23fbfbfd'%3ESL%3C/text%3E%3C/svg%3E" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="nav">
-      <a class="brand" href="#top">
-        <span class="mark">SL</span>
-        Sylvester Lim
-      </a>
-      <nav>
-        <a href="#work">Work</a>
-        <a href="#jam">Jam</a>
-        <a href="#built">Projects</a>
-        <a href="#rest">The rest</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <main id="top">
-      <section class="hero">
-        <div class="avatar" aria-hidden="true">SL</div>
-        <p class="kicker">Sylvester Lim · NUS Computer Science</p>
-        <h1>Here's what I've been <span class="grad">up to.</span></h1>
-        <p class="lede">
-          IRAS Merit Scholar, Aug 2025 - Jul 2029.
-          A casual log of jobs, projects, a jam, some golf.
+    <main class="page">
+      <header class="masthead">
+        <h1>Sylvester Lim</h1>
+        <p class="edu">
+          NUS Computer Science, Aug 2025 - Jul 2029.
+          IRAS Merit Scholarship.
         </p>
-        <div class="cta">
-          <a class="btn" href="#work">See the log</a>
-          <a class="text-link" href="https://www.linkedin.com/in/sylvester-lhk">LinkedIn ›</a>
-          <a class="text-link" href="https://github.com/Sea1vester">GitHub ›</a>
-        </div>
-        <div class="stats">
-          <div>
-            <p class="stat-num">Top 8</p>
-            <p class="stat-label">Anti-Drug Jam, 150+</p>
+        <p class="coursework">
+          Software engineering, programming methodology, data structures, discrete structures, linear algebra, computer organisation.
+        </p>
+        <p class="links">
+          <a href="mailto:sylvester0928@gmail.com">sylvester0928@gmail.com</a>
+          <span class="dot">·</span>
+          <a href="https://www.linkedin.com/in/sylvester-lhk">linkedin</a>
+          <span class="dot">·</span>
+          <a href="https://github.com/Sea1vester">github</a>
+        </p>
+      </header>
+
+      <section>
+        <h2>work</h2>
+
+        <article class="card">
+          <div class="card-head">
+            <div>
+              <h3>IRAS, software engineering intern</h3>
+              <p class="when">May 2026 - Aug 2026 · Singapore</p>
+            </div>
           </div>
-          <div>
-            <p class="stat-num">2 yrs</p>
-            <p class="stat-label">SPF, Commander's Award</p>
-          </div>
-          <div>
-            <p class="stat-num">40+</p>
-            <p class="stat-label">golf SIG in a semester</p>
-          </div>
-          <div>
-            <p class="stat-num">IRAS</p>
-            <p class="stat-label">Merit Scholarship</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="work" class="band">
-        <div class="wrap">
-          <h2>Work. <span>The jobs.</span></h2>
-
-          <article class="card">
-            <div class="card-head">
-              <div class="logo">IR</div>
-              <div class="titles">
-                <h3>Software Engineering Intern</h3>
-                <p class="org">Inland Revenue Authority of Singapore (IRAS)</p>
-              </div>
-              <p class="when">May 2026 to Aug 2026 · Singapore</p>
-            </div>
-            <ul>
-              <li>Spent the summer mapping how the C# microservices and Angular screens actually depend on each other.</li>
-              <li>We indexed the compilers into a SQL graph, then hooked GitHub Copilot Agent (CLI / MCP) into it so the model could query the graph instead of guessing.</li>
-            </ul>
-            <p class="angle"><strong>Anyway:</strong> I liked that part a lot. Watching it look something up, instead of making it up, felt like the whole point.</p>
-            <ul class="tags">
-              <li>C#</li>
-              <li>.NET</li>
-              <li>Angular</li>
-              <li>SQL</li>
-              <li>TypeScript</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <div class="logo">SP</div>
-              <div class="titles">
-                <h3>Staff Assistant to the Commanding Officer</h3>
-                <p class="org">Singapore Police Force</p>
-              </div>
-              <p class="when">Apr 2023 to Apr 2025 · Singapore</p>
-            </div>
-            <ul>
-              <li>Two years keeping division-wide logistics upright while two stations merged.</li>
-              <li>A lot of it was making the boring things happen on time.</li>
-              <li>Got a Commander's Award for operational leadership and coordination, which still feels a bit surreal.</li>
-            </ul>
-            <p class="angle"><strong>Anyway:</strong> Most of the work did not look like leadership from the inside. It looked like spreadsheets and phone calls.</p>
-            <ul class="tags">
-              <li>coordination</li>
-              <li>logistics</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <div class="logo">CO</div>
-              <div class="titles">
-                <h3>Marketing Support</h3>
-                <p class="org">Constellar</p>
-              </div>
-              <p class="when">Jan 2023 to Apr 2023 · Singapore</p>
-            </div>
-            <ul>
-              <li>Directed B2B communications for regional food-tech trade shows.</li>
-              <li>A lot of writing to exhibitors and keeping stakeholder relations from going quiet.</li>
-            </ul>
-            <p class="angle"><strong>Anyway:</strong> First time I had to sound like I belonged in that room. Weird, then fine.</p>
-            <ul class="tags">
-              <li>B2B communications</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section id="jam" class="band alt">
-        <div class="wrap">
-          <h2>Jam. <span>One weekend.</span></h2>
-
-          <article class="card">
-            <p class="badge">Top 8 · 150+ participants</p>
-            <div class="card-head">
-              <div class="titles">
-                <h3>Don't Get Played</h3>
-                <p class="org">SCOGA x NCADA Anti-Drug Jam</p>
-              </div>
-              <p class="when">Sep 2026</p>
-            </div>
-            <p>
-              Team BOB: me, Crescent Liew, Bernardino Lintang, Lim Ding Heng.
-              We started the weekend on near-zero sleep, an alarming amount of caffeine, and zero expectations.
-              Built Don't Get Played, twenty tiny reflex games in a Dumb Ways to Die vein, for anti-drug awareness.
-            </p>
-            <p>
-              Between frantically tuning game loops and wrestling with last-minute deploys, seeing people actually pick it up and play made the chaotic hours worth it.
-            </p>
-            <p class="angle"><strong>Anyway:</strong> Zero expectations, then people actually played it.</p>
-            <ul class="tags">
-              <li>React</li>
-              <li>TypeScript</li>
-              <li>Node.js</li>
-            </ul>
-            <p class="links-row">
-              <a href="https://www.linkedin.com/feed/update/urn:li:activity:7507394874275594240/">the recap ›</a>
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="built" class="band">
-        <div class="wrap">
-          <h2>Projects. <span>Things I built.</span></h2>
-
-          <article class="card">
-            <div class="card-head">
-              <div class="titles">
-                <h3>WISL</h3>
-                <p class="org">Recorded flight evidence for mixed drone fleets</p>
-              </div>
-              <p class="when">Aug 2026 to now</p>
-            </div>
-            <p class="role">Lead developer with Inessa Wong · NUS Enterprise invite-only track</p>
-            <p>
-              Different drone makers dump logs in totally different shapes (DJI, PX4, ArduPilot).
-              We pull them into one schema, index the physics-based incidents, and a local Ollama model turns the repeats into a bulletin you can actually read before the next flight.
-            </p>
-            <p class="angle"><strong>Anyway:</strong> The useful bit, for me, is that the evidence stays tied to the actual flight. The warning, from that airframe, in that sortie.</p>
-            <ul class="tags">
-              <li>Python</li>
-              <li>FastAPI</li>
-              <li>Redis</li>
-              <li>CesiumJS</li>
-              <li>Ollama</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <div class="titles">
-                <h3>workflow wrapper (wfw)</h3>
-                <p class="org">Independent</p>
-              </div>
-              <p class="when">Jun 2026 to now</p>
-            </div>
-            <p>
-              A CLI and MCP server that leases parallel git worktrees for coding agents and keeps them on one shared, browser-reviewable plan.
-              One change per loop.
-              Failures get reverted.
-              It only closes when tests pass.
-            </p>
-            <p class="angle"><strong>Anyway:</strong> Built this because the messy version was annoying me. I wanted the agents on their own islands, not stepping on each other.</p>
-            <ul class="tags">
-              <li>Bash</li>
-              <li>Node.js</li>
-              <li>TypeScript</li>
-              <li>MCP</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <div class="titles">
-                <h3>CoVault</h3>
-                <p class="org">NUS Orbital</p>
-              </div>
-              <p class="when">May 2026 to Aug 2026</p>
-            </div>
-            <p class="role">Full-stack</p>
-            <p>
-              An encrypted mobile workspace.
-              Crypto happens on the device (TweetNaCl), there is an offline-first SQLite sync engine, and roles for who sees what via Supabase RLS.
-            </p>
-            <p class="angle"><strong>Anyway:</strong> The sync and the GitHub Actions pipeline were the unglamorous parts. Glad we did them properly.</p>
-            <ul class="tags">
-              <li>React Native</li>
-              <li>TypeScript</li>
-              <li>Supabase</li>
-              <li>SQLite</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section id="rest" class="band alt">
-        <div class="wrap">
-          <h2>The rest. <span>Golf, LaTeX, green spaces.</span></h2>
-
-          <article class="card">
-            <div class="card-head">
-              <div class="titles">
-                <h3>Acacia on the Green</h3>
-                <p class="org">Founder &amp; president, Acacia Residential College</p>
-              </div>
-              <p class="when">Aug 2025 to now</p>
-            </div>
-            <p>
-              Sourced, negotiated, and actually got an indoor golf simulator into the college.
-              Then ran workshops and campus events until membership went from 0 to 40+ in a semester.
-            </p>
-            <p class="angle"><strong>Anyway:</strong> Still slightly surprised it exists.</p>
-            <ul class="tags">
-              <li>organising</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <div class="titles">
-                <h3>Workshops Executive</h3>
-                <p class="org">NUS Mathematics Society</p>
-              </div>
-              <p class="when">Aug 2025 to now</p>
-            </div>
-            <p>
-              Coordinated MATLAB and LaTeX workshops for 100+ students.
-              Trying to make the tooling feel less like a wall, more like something you can sit down and use.
-            </p>
-            <ul class="tags">
-              <li>MATLAB</li>
-              <li>LaTeX</li>
-              <li>teaching</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <div class="titles">
-                <h3>Volunteer</h3>
-                <p class="org">Institute of Mental Health</p>
-              </div>
-              <p class="when">Feb 2024 to now</p>
-            </div>
-            <p>
-              I go in and look after the green spaces.
-              Showing up is the point.
-            </p>
-            <ul class="tags">
-              <li>volunteering</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section id="contact" class="band">
-        <div class="wrap contact">
-          <h2>Let's talk.</h2>
           <p>
-            Coursework so far: software engineering, programming methodology, data structures, discrete structures, linear algebra, computer organisation.
+            Spent the summer mapping how the C# microservices and Angular screens actually depend on each other.
+            We indexed the compilers into a SQL graph, then hooked GitHub Copilot Agent (CLI / MCP) into it so the model could query the graph instead of guessing.
           </p>
-          <p>that's the log so far.</p>
-          <div class="cta">
-            <a class="btn" href="mailto:sylvester0928@gmail.com">Email me</a>
-            <a class="text-link" href="https://github.com/Sea1vester">GitHub ›</a>
-            <a class="text-link" href="https://www.linkedin.com/in/sylvester-lhk">LinkedIn ›</a>
+          <p class="angle"><strong>Anyway:</strong> I liked that part a lot. Watching it look something up, instead of making it up, felt like the whole point.</p>
+          <ul class="tags">
+            <li>C#</li>
+            <li>.NET</li>
+            <li>Angular</li>
+            <li>SQL</li>
+            <li>TypeScript</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <div>
+              <h3>Singapore Police Force, staff assistant to the commanding officer</h3>
+              <p class="when">Apr 2023 - Apr 2025 · Singapore</p>
+            </div>
           </div>
-        </div>
+          <p>
+            Two years keeping division-wide logistics upright while two stations merged.
+            A lot of it was making the boring things happen on time.
+          </p>
+          <p>
+            Got a Commander's Award for operational leadership and coordination, which still feels a bit surreal.
+          </p>
+          <p class="angle"><strong>Anyway:</strong> Most of the work did not look like leadership from the inside. It looked like spreadsheets and phone calls.</p>
+          <ul class="tags">
+            <li>coordination</li>
+            <li>logistics</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <div>
+              <h3>Constellar, marketing support</h3>
+              <p class="when">Jan 2023 - Apr 2023 · Singapore</p>
+            </div>
+          </div>
+          <p>
+            Directed B2B communications for regional food-tech trade shows.
+            A lot of writing to exhibitors and keeping stakeholder relations from going quiet.
+          </p>
+          <p class="angle"><strong>Anyway:</strong> First time I had to sound like I belonged in that room. Weird, then fine.</p>
+          <ul class="tags">
+            <li>B2B communications</li>
+          </ul>
+        </article>
       </section>
+
+      <section>
+        <h2>things i built</h2>
+
+        <article class="card">
+          <div class="card-head">
+            <div>
+              <h3>WISL, recorded flight evidence for mixed drone fleets</h3>
+              <p class="when">Lead developer with Inessa Wong · NUS Enterprise invite-only track · Aug 2026 - now</p>
+            </div>
+          </div>
+          <p>
+            Different drone makers dump logs in totally different shapes (DJI, PX4, ArduPilot).
+            We pull them into one schema, index the physics-based incidents, and a local Ollama model turns the repeats into a bulletin you can actually read before the next flight.
+          </p>
+          <p class="angle"><strong>Anyway:</strong> The useful bit, for me, is that the evidence stays tied to the actual flight. The warning, from that airframe, in that sortie.</p>
+          <ul class="tags">
+            <li>Python</li>
+            <li>FastAPI</li>
+            <li>Redis</li>
+            <li>CesiumJS</li>
+            <li>Ollama</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <div>
+              <h3>Don't Get Played</h3>
+              <p class="when">SCOGA x NCADA Anti-Drug Jam · Top 8 finalist · Sep 2026</p>
+            </div>
+          </div>
+          <p>
+            Team BOB: me, Crescent Liew, Bernardino Lintang, Lim Ding Heng.
+            We started the weekend on near-zero sleep, an alarming amount of caffeine, and zero expectations.
+            Built Don't Get Played, twenty tiny reflex games in a Dumb Ways to Die vein, for anti-drug awareness.
+          </p>
+          <p>
+            Between frantically tuning game loops and wrestling with last-minute deploys, seeing people actually pick it up and play made the chaotic hours worth it.
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7507394874275594240/">the recap</a>
+          </p>
+          <ul class="tags">
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Node.js</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <div>
+              <h3>workflow wrapper (wfw)</h3>
+              <p class="when">Independent · Jun 2026 - now</p>
+            </div>
+          </div>
+          <p>
+            A CLI and MCP server that leases parallel git worktrees for coding agents and keeps them on one shared, browser-reviewable plan.
+            One change per loop.
+            Failures get reverted.
+            It only closes when tests pass.
+          </p>
+          <p class="angle"><strong>Anyway:</strong> Built this because the messy version was annoying me. I wanted the agents on their own islands, not stepping on each other.</p>
+          <ul class="tags">
+            <li>Bash</li>
+            <li>Node.js</li>
+            <li>TypeScript</li>
+            <li>MCP</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <div>
+              <h3>CoVault</h3>
+              <p class="when">NUS Orbital, full-stack · May 2026 - Aug 2026</p>
+            </div>
+          </div>
+          <p>
+            An encrypted mobile workspace.
+            Crypto happens on the device (TweetNaCl), there is an offline-first SQLite sync engine, and roles for who sees what via Supabase RLS.
+          </p>
+          <p class="angle"><strong>Anyway:</strong> The sync and the GitHub Actions pipeline were the unglamorous parts. Glad we did them properly.</p>
+          <ul class="tags">
+            <li>React Native</li>
+            <li>TypeScript</li>
+            <li>Supabase</li>
+            <li>SQLite</li>
+          </ul>
+        </article>
+      </section>
+
+      <section>
+        <h2>the rest</h2>
+
+        <article class="card">
+          <div class="card-head">
+            <div>
+              <h3>Acacia on the Green</h3>
+              <p class="when">Founder &amp; president, Acacia Residential College · Aug 2025 - now</p>
+            </div>
+          </div>
+          <p>
+            Sourced, negotiated, and actually got an indoor golf simulator into the college.
+            Then ran workshops and campus events until membership went from 0 to 40+ in a semester.
+          </p>
+          <p class="angle"><strong>Anyway:</strong> Still slightly surprised it exists.</p>
+          <ul class="tags">
+            <li>organising</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <div>
+              <h3>NUS Mathematics Society, workshops executive</h3>
+              <p class="when">Aug 2025 - now</p>
+            </div>
+          </div>
+          <p>
+            Coordinated MATLAB and LaTeX workshops for 100+ students.
+            Trying to make the tooling feel less like a wall, more like something you can sit down and use.
+          </p>
+          <ul class="tags">
+            <li>MATLAB</li>
+            <li>LaTeX</li>
+            <li>teaching</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <div>
+              <h3>Institute of Mental Health, volunteer</h3>
+              <p class="when">Feb 2024 - now</p>
+            </div>
+          </div>
+          <p>
+            I go in and look after the green spaces.
+            Showing up is the point.
+          </p>
+          <ul class="tags">
+            <li>volunteering</li>
+          </ul>
+        </article>
+      </section>
+
+      <footer>
+        <p>that's the log so far.</p>
+      </footer>
     </main>
   </body>
 </html>
